@@ -26,6 +26,8 @@
 <%
 =end %>
 
+<h1>New User</h1>
+
 <%= form_with model: @user do |form| %>
   <%= form.label :username, "Your username here:" %>
   <%= form.text_field :username, value: "John Doe" %>
